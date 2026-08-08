@@ -1,0 +1,25 @@
+Hakoniwa Conductor Dual-License Notice
+
+SPDX-License-Identifier: LicenseRef-Hakoniwa-Conductor-NC-1.0
+
+Unless a file contains a different license notice, the contents of this
+repository are made available under a dual-license model:
+
+1. Non-commercial use
+   Hakoniwa Conductor Non-Commercial License 1.0
+   - Japanese: LICENSE-NC-ja.md
+   - English:  LICENSE-NC.md
+
+2. Commercial use
+   A separate Hakoniwa Conductor PRO commercial license agreement with
+   Hakoniwa Lab LLC is required.
+   - Japanese commercial license: LICENSE-PRO-ja.md
+
+Accessing, viewing, cloning, or downloading this repository does not by
+itself grant any right to use the software commercially.
+
+Third-party components and files carrying their own license notices remain
+subject to their respective license terms.
+
+In the event of any discrepancy between the Japanese and English versions of
+the non-commercial license, the Japanese version shall prevail.

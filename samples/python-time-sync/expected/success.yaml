@@ -1,0 +1,14 @@
+version: 1
+sample: python-time-sync
+required_assets:
+  - hello-asset-a
+  - hello-asset-b
+minimum_observed_tick: 20
+delta_time_usec: 10000
+checks:
+  - both assets register before simulation start
+  - both assets reach the same required tick
+  - observed simulation time never moves backwards
+  - simulation time at the required tick is equal for both assets
+  - server, clients, and assets remain alive through validation
+  - normal stop releases all sample-owned processes and ports

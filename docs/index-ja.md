@@ -21,10 +21,13 @@
 10. [互換性](compatibility-ja.md)
 11. [v1.0.0 Release Notes](releases/v1.0.0-ja.md)
 
+## サンプル
+
+- [Python時刻同期サンプル](../samples/python-time-sync/README-ja.md)
+
 ## 今後追加する利用文書
 
 - ユースケース
-- サンプルアプリケーション
 - Web／ROS／Remote API連携
 - トラブルシューティング
 - ライセンスと引用方法

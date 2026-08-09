@@ -1,0 +1,8 @@
+{
+  "name": "cache_bridge_monitor_client_srv-01-02",
+  "store": {
+    "depth": 64,
+    "mode": "queue"
+  },
+  "type": "buffer"
+}

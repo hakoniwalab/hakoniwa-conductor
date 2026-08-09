@@ -1,0 +1,6 @@
+{
+  "cache": "mux_cache.json",
+  "comm": "mux_comm_tcp_server.json",
+  "name": "bridge-monitor-mux-srv-01-02",
+  "pdu_def_path": "../../pdudef.json"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "buffer",
+  "name": "cache_cli-02_shm",
+  "store": {
+    "mode": "latest"
+  }
+}

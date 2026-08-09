@@ -17,10 +17,13 @@
 10. [Compatibility](compatibility.md)
 11. [v1.0.0 Release Notes](releases/v1.0.0.md)
 
+## Samples
+
+- [Python time-synchronization sample](../samples/python-time-sync/README.md)
+
 ## Planned user documentation
 
 - Use cases
-- Sample applications
 - Web, ROS, and Remote API integration
 - Troubleshooting
 - Licensing and citation guidance

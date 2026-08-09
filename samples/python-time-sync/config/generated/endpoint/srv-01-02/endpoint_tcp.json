@@ -1,0 +1,6 @@
+{
+  "name": "srv-01-02-ep-tcp",
+  "pdu_def_path": "../../pdudef.json",
+  "cache": "cache/srv-01-02_tcp.json",
+  "comm": "comm/srv-01-02_tcp.json"
+}

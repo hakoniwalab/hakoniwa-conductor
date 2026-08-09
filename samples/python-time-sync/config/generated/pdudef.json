@@ -1,0 +1,22 @@
+{
+  "paths": [
+    {
+      "id": "Time",
+      "path": "pdutypes_time.json"
+    }
+  ],
+  "robots": [
+    {
+      "name": "cli-01",
+      "pdutypes_id": "Time"
+    },
+    {
+      "name": "cli-02",
+      "pdutypes_id": "Time"
+    },
+    {
+      "name": "srv-01",
+      "pdutypes_id": "Time"
+    }
+  ]
+}

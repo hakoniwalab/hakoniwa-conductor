@@ -1,0 +1,214 @@
+{
+  "version": "2.0.0",
+  "time_source_type": "hakoniwa_poll",
+  "transferPolicies": {
+    "immediate": {
+      "type": "immediate"
+    },
+    "immediate-atomic": {
+      "atomic": true,
+      "type": "immediate"
+    }
+  },
+  "nodes": [
+    {
+      "id": "srv-01-01"
+    },
+    {
+      "id": "srv-01-02"
+    },
+    {
+      "id": "cli-01"
+    },
+    {
+      "id": "cli-02"
+    }
+  ],
+  "wireLinks": [
+    {
+      "from": "srv-01-01-ep-tcp",
+      "to": "cli-01-ep-tcp"
+    },
+    {
+      "from": "cli-01-ep-tcp",
+      "to": "srv-01-01-ep-tcp"
+    },
+    {
+      "from": "srv-01-02-ep-tcp",
+      "to": "cli-02-ep-tcp"
+    },
+    {
+      "from": "cli-02-ep-tcp",
+      "to": "srv-01-02-ep-tcp"
+    }
+  ],
+  "pduKeyGroups": {
+    "cli-02-conductor": [
+      {
+        "id": "cli-02.time",
+        "pdu_name": "time",
+        "robot_name": "cli-02"
+      }
+    ],
+    "srv-01-conductor": [
+      {
+        "id": "srv-01.time",
+        "pdu_name": "time",
+        "robot_name": "srv-01"
+      }
+    ],
+    "cli-01-conductor": [
+      {
+        "id": "cli-01.time",
+        "pdu_name": "time",
+        "robot_name": "cli-01"
+      }
+    ]
+  },
+  "connections": [
+    {
+      "nodeId": "srv-01-01",
+      "id": "srv-01-01-to-cli-01-conn",
+      "source": {
+        "endpointId": "srv-01-01-ep-shm"
+      },
+      "destinations": [
+        {
+          "endpointId": "srv-01-01-ep-tcp"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "srv-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "srv-01-01",
+      "id": "cli-01-to-srv-01-01-conn",
+      "source": {
+        "endpointId": "srv-01-01-ep-tcp"
+      },
+      "destinations": [
+        {
+          "endpointId": "srv-01-01-ep-shm"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "cli-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "cli-01",
+      "id": "cli-01-to-srv-01-01-conn",
+      "source": {
+        "endpointId": "cli-01-ep-shm"
+      },
+      "destinations": [
+        {
+          "endpointId": "cli-01-ep-tcp"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "cli-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "cli-01",
+      "id": "srv-01-01-to-cli-01-conn",
+      "source": {
+        "endpointId": "cli-01-ep-tcp"
+      },
+      "destinations": [
+        {
+          "endpointId": "cli-01-ep-shm"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "srv-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "srv-01-02",
+      "id": "srv-01-02-to-cli-02-conn",
+      "source": {
+        "endpointId": "srv-01-02-ep-shm"
+      },
+      "destinations": [
+        {
+          "endpointId": "srv-01-02-ep-tcp"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "srv-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "srv-01-02",
+      "id": "cli-02-to-srv-01-02-conn",
+      "source": {
+        "endpointId": "srv-01-02-ep-tcp"
+      },
+      "destinations": [
+        {
+          "endpointId": "srv-01-02-ep-shm"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "cli-02-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "cli-02",
+      "id": "cli-02-to-srv-01-02-conn",
+      "source": {
+        "endpointId": "cli-02-ep-shm"
+      },
+      "destinations": [
+        {
+          "endpointId": "cli-02-ep-tcp"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "cli-02-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    },
+    {
+      "nodeId": "cli-02",
+      "id": "srv-01-02-to-cli-02-conn",
+      "source": {
+        "endpointId": "cli-02-ep-tcp"
+      },
+      "destinations": [
+        {
+          "endpointId": "cli-02-ep-shm"
+        }
+      ],
+      "transferPdus": [
+        {
+          "pduKeyGroupId": "srv-01-conductor",
+          "policyId": "immediate-atomic"
+        }
+      ]
+    }
+  ]
+}

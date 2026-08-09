@@ -1,0 +1,7 @@
+{
+  "control_request_channel": 1,
+  "control_response_channel": 2,
+  "control_robot": "BridgeControl",
+  "enable_ondemand": true,
+  "ondemand_mux_config_path": "mux_endpoint.json"
+}

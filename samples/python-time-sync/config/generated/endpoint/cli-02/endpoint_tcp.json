@@ -1,0 +1,6 @@
+{
+  "name": "cli-02-ep-tcp",
+  "pdu_def_path": "../../pdudef.json",
+  "cache": "cache/cli-02_tcp.json",
+  "comm": "comm/cli-02_tcp.json"
+}

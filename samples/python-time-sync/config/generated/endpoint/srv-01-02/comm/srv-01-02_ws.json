@@ -1,0 +1,16 @@
+{
+  "protocol": "websocket",
+  "direction": "inout",
+  "name": "ws_client_to_cli-02",
+  "role": "client",
+  "remote": {
+    "host": "cli-02",
+    "port": 56012,
+    "path": "/"
+  },
+  "options": {
+    "connect_timeout_ms": 5000,
+    "read_timeout_ms": 5000,
+    "write_timeout_ms": 5000
+  }
+}

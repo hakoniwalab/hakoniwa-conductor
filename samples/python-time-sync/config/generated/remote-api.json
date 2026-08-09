@@ -1,0 +1,30 @@
+{
+  "participants": [
+    {
+      "name": "cli-name-01",
+      "nodeId": "cli-01",
+      "poll_sleep_time_usec": 500000,
+      "role": "asset",
+      "server_nodeId": "srv-01-01"
+    },
+    {
+      "name": "cli-name-02",
+      "nodeId": "cli-02",
+      "poll_sleep_time_usec": 500000,
+      "role": "asset",
+      "server_nodeId": "srv-01-02"
+    }
+  ],
+  "poll_sleep_time_usec": 500000,
+  "rpc_service_config_path": "rpc.json",
+  "servers": [
+    {
+      "nodeId": "srv-01-01"
+    },
+    {
+      "nodeId": "srv-01-02"
+    }
+  ],
+  "time_source_type": "real",
+  "version": 1
+}

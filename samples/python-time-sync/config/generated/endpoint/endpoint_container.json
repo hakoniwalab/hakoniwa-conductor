@@ -1,0 +1,62 @@
+[
+  {
+    "nodeId": "cli-01",
+    "endpoints": [
+      {
+        "id": "cli-01-ep-shm",
+        "config_path": "cli-01/endpoint_shm.json",
+        "mode": "local"
+      },
+      {
+        "id": "cli-01-ep-tcp",
+        "config_path": "cli-01/endpoint_tcp.json",
+        "mode": "wire"
+      }
+    ]
+  },
+  {
+    "nodeId": "srv-01-01",
+    "endpoints": [
+      {
+        "id": "srv-01-01-ep-shm",
+        "config_path": "srv-01-01/endpoint_shm.json",
+        "mode": "local"
+      },
+      {
+        "id": "srv-01-01-ep-tcp",
+        "config_path": "srv-01-01/endpoint_tcp.json",
+        "mode": "wire"
+      }
+    ]
+  },
+  {
+    "nodeId": "cli-02",
+    "endpoints": [
+      {
+        "id": "cli-02-ep-shm",
+        "config_path": "cli-02/endpoint_shm.json",
+        "mode": "local"
+      },
+      {
+        "id": "cli-02-ep-tcp",
+        "config_path": "cli-02/endpoint_tcp.json",
+        "mode": "wire"
+      }
+    ]
+  },
+  {
+    "nodeId": "srv-01-02",
+    "endpoints": [
+      {
+        "id": "srv-01-02-ep-shm",
+        "config_path": "srv-01-02/endpoint_shm.json",
+        "mode": "local"
+      },
+      {
+        "id": "srv-01-02-ep-tcp",
+        "config_path": "srv-01-02/endpoint_tcp.json",
+        "mode": "wire"
+      }
+    ]
+  }
+]

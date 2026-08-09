@@ -1,0 +1,35 @@
+{
+  "mode": "simple",
+  "pattern": "pair-server-client",
+  "execution_nodes": [
+    {
+      "nodeId": "cli-01"
+    },
+    {
+      "nodeId": "cli-02"
+    }
+  ],
+  "execution_unit": [],
+  "connection_pairs": [
+    {
+      "client_node_id": "cli-01",
+      "server_node_id": "srv-01-01"
+    },
+    {
+      "client_node_id": "cli-02",
+      "server_node_id": "srv-01-02"
+    }
+  ],
+  "pdu_groups": [],
+  "eu_pdu_bindings": [],
+  "comm_defaults": {
+    "tcp": {
+      "base_port": 54011,
+      "connection_initiator": "server"
+    }
+  },
+  "conductor_defaults": {
+    "delta_time_usec": 10000,
+    "max_delay_time_usec": 10000
+  }
+}

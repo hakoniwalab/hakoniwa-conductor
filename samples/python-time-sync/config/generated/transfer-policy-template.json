@@ -1,0 +1,9 @@
+{
+  "immediate-atomic": {
+    "type": "immediate",
+    "atomic": true
+  },
+  "immediate": {
+    "type": "immediate"
+  }
+}

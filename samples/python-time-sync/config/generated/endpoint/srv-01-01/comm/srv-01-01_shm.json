@@ -1,0 +1,29 @@
+{
+  "protocol": "shm",
+  "direction": "inout",
+  "impl_type": "poll",
+  "name": "hakoniwa_shared_memory",
+  "asset_name": "cli-01",
+  "io": {
+    "robots": [
+      {
+        "name": "srv-01",
+        "pdu": [
+          {
+            "name": "time",
+            "notify_on_recv": true
+          }
+        ]
+      },
+      {
+        "name": "cli-01",
+        "pdu": [
+          {
+            "name": "time",
+            "notify_on_recv": true
+          }
+        ]
+      }
+    ]
+  }
+}

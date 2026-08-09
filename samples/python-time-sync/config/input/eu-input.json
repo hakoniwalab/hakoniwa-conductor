@@ -1,0 +1,21 @@
+{
+  "mode": "simple",
+  "execution_nodes": ["cli-01", "cli-02"],
+  "connection_pairs": [
+    { "client_node_id": "cli-01", "server_node_id": "srv-01-01" },
+    { "client_node_id": "cli-02", "server_node_id": "srv-01-02" }
+  ],
+  "comm_defaults": {
+    "tcp": {
+      "base_port": 54011,
+      "connection_initiator": "server"
+    }
+  },
+  "conductor_defaults": {
+    "delta_time_usec": 10000,
+    "max_delay_time_usec": 10000
+  },
+  "execution_units": [],
+  "pdu_groups": [],
+  "eu_pdu_bindings": []
+}

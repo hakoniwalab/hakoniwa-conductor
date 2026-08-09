@@ -1,0 +1,20 @@
+{
+  "direction": "inout",
+  "name": "bridge_monitor_client_cli-01",
+  "options": {
+    "connect_timeout_ms": 2000,
+    "read_timeout_ms": 1000,
+    "write_timeout_ms": 1000
+  },
+  "protocol": "tcp",
+  "remote": {
+    "address": "127.0.0.1",
+    "port": 65202
+  },
+  "role": "client",
+  "name_resolver": {
+    "type": "file",
+    "path": "../../node-ip-map.json",
+    "strict": false
+  }
+}

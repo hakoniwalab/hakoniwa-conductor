@@ -1,0 +1,8 @@
+{
+  "name": "cache_bridge_monitor_mux_cli-02",
+  "store": {
+    "depth": 64,
+    "mode": "queue"
+  },
+  "type": "buffer"
+}

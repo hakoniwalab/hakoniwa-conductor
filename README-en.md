@@ -6,6 +6,8 @@ Hakoniwa Conductor is the Hakoniwa Control Plane implementation for managing exe
 
 The public edition provides binaries, configuration generators, and user documentation for academic research, education, non-commercial research and development, peer review, and reproducibility studies. Configuration examples, sample applications, and the Hakoniwa Business Pack Recipe will be published incrementally. The Conductor and Runtime Delegation (RD) implementation source code is not published.
 
+The smallest runnable example is the [Python time-synchronization sample](samples/python-time-sync/README.md), which coordinates two Python Hakoniwa assets. Its generated configuration is checked in, so the first smoke test does not require running a generator.
+
 ## Entry point
 
 Environment setup, Foundation dependencies, Recipes, execution, and validation are managed through the [Hakoniwa Business Pack](https://github.com/hakoniwalab/hakoniwa-business-pack).

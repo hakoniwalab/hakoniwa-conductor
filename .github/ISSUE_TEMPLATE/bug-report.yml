@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a reproducible problem with the public Hakoniwa Conductor distribution
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post credentials, private repository URLs, personal absolute paths, or confidential configuration. Security issues should use the private contact described by Hakoniwa Lab instead of a public Issue.
+  - type: input
+    id: conductor_version
+    attributes:
+      label: Hakoniwa Conductor version
+      description: Include the VERSION value and archive filename.
+      placeholder: v1.0.0 / hakoniwa-conductor-v1.0.0-linux-x86_64.zip
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, CPU architecture, and Docker version when used.
+      placeholder: Ubuntu 24.04, x86_64, Docker 27.x
+    validations:
+      required: true
+  - type: input
+    id: recipe
+    attributes:
+      label: Business Pack Recipe
+      description: Recipe ID and Business Pack revision or release.
+    validations:
+      required: true
+  - type: textarea
+    id: foundation
+    attributes:
+      label: Foundation status
+      description: Paste the relevant doctor result and Receipt revisions after removing private paths.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the shortest sequence starting from doctor/configure.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and success evidence
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and logs
+      description: Include the first relevant error and redact sensitive values.
+    validations:
+      required: true
+  - type: checkboxes
+    id: cleanup
+    attributes:
+      label: Cleanup confirmation
+      options:
+        - label: I used the Recipe's normal terminate operation and checked remaining processes and ports.
+        - label: I removed credentials, private URLs, and personal absolute paths from this report.
+          required: true

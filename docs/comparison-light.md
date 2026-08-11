@@ -9,16 +9,13 @@ Conductor Light implements a subset of the execution-responsibility semantics of
 | Capability or concept | Conductor Light | Hakoniwa Conductor | Notes |
 | --- | :---: | :---: | --- |
 | Distributed time synchronization | Supported | Supported | See hakoniwa-design-docs for bounded-drift semantics |
-| Time-difference diagnostic logs | Under review | Supported | Log output is not visualization |
-| Time-difference visualization | Not supported | Not supported | Means a UI, graph, or dashboard |
-| Dynamic Asset join and leave | Supported | Out of scope or constrained | The public Conductor contract will be finalized before release |
+| Time-synchronization error measurement and data output | Not supported | Not supported | Provides the difference between reference and observed time as numeric data; UI or graph visualization is not included |
+| Dynamic Asset join and leave | Supported | Out of scope | Hakoniwa Conductor does not treat dynamic participation as a product responsibility |
 | Simulation start, stop, and reset | Supported | Supported | Operation APIs and state contracts differ |
 | EU Owner management | Out of scope | Supported | Owner follows the design-docs definition |
 | Epoch management | Out of scope | Supported | Epoch follows the design-docs definition |
 | Commit Point | Out of scope | Supported | Not a physical start synchronization point |
 | Runtime Delegation | Out of scope | Supported | Safely switches execution responsibility |
-
-Items marked Under review or Out of scope or constrained will be finalized against both implementations and their tests before publication.
 
 ## Product purpose and integration
 

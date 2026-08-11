@@ -12,7 +12,6 @@ Normative definitions are maintained by `hakoniwa-design-docs`. This page states
 | Epoch management | Supported | Identifies generations of execution responsibility |
 | Commit Point | Supported | Semantic fixation of responsibility and causal boundaries |
 | Runtime Delegation | Supported | Switches the Owner of an EU during execution |
-| Time-difference diagnostic logs | Supported | Diagnostic logs are not a visualization feature |
-| Time-difference visualization | Not supported | No UI, graph, or dashboard is provided |
+| Time-synchronization error measurement and data output | Not supported | No numeric data contract is provided for evaluating the difference between reference and observed time |
 
-Status values distinguish Supported, Experimental, Planned, Out of scope, and Not supported. Log output alone is never described as time-difference visualization.
+Status values distinguish Supported, Experimental, Planned, Out of scope, and Not supported. Data output means a numeric data contract that allows synchronization error to be evaluated. The current version provides neither this data output nor UI or graph visualization.

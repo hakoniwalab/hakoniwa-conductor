@@ -26,7 +26,7 @@ Distributed Hakoniwa assets
 
 Start with [Getting started](docs/getting-started.md). The [documentation index](docs/index.md) shows the complete public document set.
 
-The first binary release is `v1.0.0`. Its artifacts are `hakoniwa-conductor-v1.0.0-linux-x86_64.zip` and `hakoniwa-conductor-v1.0.0-macos-arm64.zip`. See [Binary package](docs/binary-package.md) for package contents and placement.
+The latest binary release is `v1.1.0`. Its artifacts are `hakoniwa-conductor-v1.1.0-linux-x86_64.zip` and `hakoniwa-conductor-v1.1.0-macos-arm64.zip`. See [Binary package](docs/binary-package.md) for package contents and placement.
 
 ## Shortest supported path
 

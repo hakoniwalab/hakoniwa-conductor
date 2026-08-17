@@ -9,5 +9,7 @@
   "bridge_monitor_runtime_config_path": "../bridge-monitor/cli-02/runtime.json",
   "time_source_type": "hakoniwa_poll",
   "delta_time_usec": 10000,
-  "max_delay_time_usec": 10000
+  "max_delay_time_usec": 10000,
+  "real_sleep_msec": 0,
+  "simtime_publish_mode": "delta_boundary"
 }

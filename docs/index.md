@@ -15,7 +15,8 @@
 8. [Configuration and generator](configuration.md)
 9. [Operations](operations.md)
 10. [Compatibility](compatibility.md)
-11. [v1.0.0 Release Notes](releases/v1.0.0.md)
+11. [v1.1.0 Release Notes](releases/v1.1.0.md)
+12. [v1.0.0 Release Notes](releases/v1.0.0.md)
 
 ## Samples
 

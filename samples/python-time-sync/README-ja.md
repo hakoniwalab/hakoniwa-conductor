@@ -15,7 +15,7 @@ Hakoniwa Conductorの最小動作確認サンプルです。異なるClientノ�
 ## 公開設定の位置付け
 
 - `config/input/`: Generatorへ渡す人間向け入力です。
-- `config/generated/`: v1.0.0 Generatorで生成し、動作確認する固定Fixtureです。
+- `config/generated/`: v1.1.0 Generatorで生成し、動作確認する固定Fixtureです。
 - `asset/hello_asset.py`: ローカルCoreへ登録し、箱庭時刻をJSON Linesで表示します。
 - `expected/success.yaml`: smoke testの成功条件です。
 

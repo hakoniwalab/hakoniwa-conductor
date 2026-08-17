@@ -19,7 +19,8 @@
 8. [設定とGenerator](configuration-ja.md)
 9. [運用](operations-ja.md)
 10. [互換性](compatibility-ja.md)
-11. [v1.0.0 Release Notes](releases/v1.0.0-ja.md)
+11. [v1.1.0 Release Notes](releases/v1.1.0-ja.md)
+12. [v1.0.0 Release Notes](releases/v1.0.0-ja.md)
 
 ## サンプル
 

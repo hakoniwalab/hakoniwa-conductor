@@ -35,17 +35,17 @@ Recipeの停止操作と後処理確認
 
 ZIPの確認と展開は[バイナリパッケージ](binary-package-ja.md)に記載します。具体的な配置先、設定例、起動コマンド、成功ログはBusiness PackのConductor Recipeに記載します。Recipeが要求するFoundationと現在のReceiptが一致する場合、依存コンポーネントは再ビルドせずに再利用されます。
 
-> v1.0.0公開時点では、Conductor Recipeと公開サンプル設定は後続提供です。ZIP単体を展開しても実行構成は生成されません。
+> ZIP単体を展開しても実行構成は生成されません。対応するHakoniwa Business Pack RecipeでFoundationと実行設定を準備してください。
 
 ## Release ZIPの確認
 
-v1.0.0の配布物は次の名前です。OSとCPUに一致するZIPを選択します。
+v1.1.0の配布物は次の名前です。OSとCPUに一致するZIPを選択します。
 
 ```text
-hakoniwa-conductor-v1.0.0-linux-x86_64.zip
-hakoniwa-conductor-v1.0.0-linux-x86_64.zip.sha256
-hakoniwa-conductor-v1.0.0-macos-arm64.zip
-hakoniwa-conductor-v1.0.0-macos-arm64.zip.sha256
+hakoniwa-conductor-v1.1.0-linux-x86_64.zip
+hakoniwa-conductor-v1.1.0-linux-x86_64.zip.sha256
+hakoniwa-conductor-v1.1.0-macos-arm64.zip
+hakoniwa-conductor-v1.1.0-macos-arm64.zip.sha256
 ```
 
 チェックサムを確認してから展開してください。ZIP内の`VERSION`、`metadata/build-contract.txt`、`metadata/install-files.txt`で、バージョン、Foundationの固定revision、収録ファイルを確認できます。

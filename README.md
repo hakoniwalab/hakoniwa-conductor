@@ -28,7 +28,7 @@ Distributed Hakoniwa assets
 
 初めて利用する場合は、[はじめに](docs/getting-started-ja.md)から進めてください。公開文書の全体像は[公開ドキュメント一覧](docs/index-ja.md)にあります。
 
-初回バイナリReleaseは `v1.0.0` です。成果物は `hakoniwa-conductor-v1.0.0-linux-x86_64.zip` と `hakoniwa-conductor-v1.0.0-macos-arm64.zip` です。収録物と配置方法は[バイナリパッケージ](docs/binary-package-ja.md)を参照してください。
+最新のバイナリReleaseは `v1.1.0` です。成果物は `hakoniwa-conductor-v1.1.0-linux-x86_64.zip` と `hakoniwa-conductor-v1.1.0-macos-arm64.zip` です。収録物と配置方法は[バイナリパッケージ](docs/binary-package-ja.md)を参照してください。
 
 ## 最短の利用経路
 

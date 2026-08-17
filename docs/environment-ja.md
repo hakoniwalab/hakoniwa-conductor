@@ -4,6 +4,8 @@
 
 | Release | OS | CPU | 状態 |
 | --- | --- | --- | --- |
+| v1.1.0 | Ubuntu 24.04 | x86_64 | 公開ZIP対象 |
+| v1.1.0 | macOS | arm64 | 公開ZIP対象 |
 | v1.0.0 | Ubuntu 24.04 | x86_64 | 初回公開対象 |
 | v1.0.0 | macOS | arm64 | 公開ZIP対象 |
 

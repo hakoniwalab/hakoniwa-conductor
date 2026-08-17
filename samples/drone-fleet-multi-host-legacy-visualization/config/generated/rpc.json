@@ -1,0 +1,165 @@
+{
+  "pduMetaDataSize": 24,
+  "services": [
+    {
+      "clients": [
+        {
+          "client_endpoint": {
+            "endpointId": "cli-01-ep-tcp",
+            "nodeId": "cli-01"
+          },
+          "name": "cli-name-01",
+          "requestChannelId": 1,
+          "responseChannelId": 2
+        }
+      ],
+      "maxClients": 4,
+      "name": "HakoRemoteApi/Join",
+      "pduSize": {
+        "client": {
+          "baseSize": 400,
+          "heapSize": 0
+        },
+        "server": {
+          "baseSize": 400,
+          "heapSize": 0
+        }
+      },
+      "server_endpoints": [
+        {
+          "endpointId": "srv-01-01-ep-tcp",
+          "nodeId": "srv-01-01"
+        }
+      ],
+      "type": "hako_srv_msgs/Join"
+    },
+    {
+      "clients": [
+        {
+          "client_endpoint": {
+            "endpointId": "cli-01-ep-tcp",
+            "nodeId": "cli-01"
+          },
+          "name": "cli-name-01",
+          "requestChannelId": 1,
+          "responseChannelId": 2
+        }
+      ],
+      "maxClients": 4,
+      "name": "HakoRemoteApi/SimControl",
+      "pduSize": {
+        "client": {
+          "baseSize": 400,
+          "heapSize": 0
+        },
+        "server": {
+          "baseSize": 400,
+          "heapSize": 0
+        }
+      },
+      "server_endpoints": [
+        {
+          "endpointId": "srv-01-01-ep-tcp",
+          "nodeId": "srv-01-01"
+        }
+      ],
+      "type": "hako_srv_msgs/SimControl"
+    },
+    {
+      "clients": [
+        {
+          "client_endpoint": {
+            "endpointId": "cli-01-ep-tcp",
+            "nodeId": "cli-01"
+          },
+          "name": "cli-name-01",
+          "requestChannelId": 1,
+          "responseChannelId": 2
+        }
+      ],
+      "maxClients": 4,
+      "name": "HakoRemoteApi/GetEvent",
+      "pduSize": {
+        "client": {
+          "baseSize": 272,
+          "heapSize": 0
+        },
+        "server": {
+          "baseSize": 400,
+          "heapSize": 0
+        }
+      },
+      "server_endpoints": [
+        {
+          "endpointId": "srv-01-01-ep-tcp",
+          "nodeId": "srv-01-01"
+        }
+      ],
+      "type": "hako_srv_msgs/GetEvent"
+    },
+    {
+      "clients": [
+        {
+          "client_endpoint": {
+            "endpointId": "cli-01-ep-tcp",
+            "nodeId": "cli-01"
+          },
+          "name": "cli-name-01",
+          "requestChannelId": 1,
+          "responseChannelId": 2
+        }
+      ],
+      "maxClients": 4,
+      "name": "HakoRemoteApi/AckEvent",
+      "pduSize": {
+        "client": {
+          "baseSize": 272,
+          "heapSize": 0
+        },
+        "server": {
+          "baseSize": 408,
+          "heapSize": 0
+        }
+      },
+      "server_endpoints": [
+        {
+          "endpointId": "srv-01-01-ep-tcp",
+          "nodeId": "srv-01-01"
+        }
+      ],
+      "type": "hako_srv_msgs/AckEvent"
+    },
+    {
+      "clients": [
+        {
+          "client_endpoint": {
+            "endpointId": "cli-01-ep-tcp",
+            "nodeId": "cli-01"
+          },
+          "name": "cli-name-01",
+          "requestChannelId": 1,
+          "responseChannelId": 2
+        }
+      ],
+      "maxClients": 4,
+      "name": "HakoRemoteApi/GetSimState",
+      "pduSize": {
+        "client": {
+          "baseSize": 304,
+          "heapSize": 0
+        },
+        "server": {
+          "baseSize": 400,
+          "heapSize": 0
+        }
+      },
+      "server_endpoints": [
+        {
+          "endpointId": "srv-01-01-ep-tcp",
+          "nodeId": "srv-01-01"
+        }
+      ],
+      "type": "hako_srv_msgs/GetSimState"
+    }
+  ]
+}

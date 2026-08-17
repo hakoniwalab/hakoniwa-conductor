@@ -1,0 +1,7 @@
+{
+  "type": "buffer",
+  "name": "cache_cli-01_tcp",
+  "store": {
+    "mode": "latest"
+  }
+}

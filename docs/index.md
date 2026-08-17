@@ -21,6 +21,8 @@
 ## Samples
 
 - [Python time-synchronization sample](../samples/python-time-sync/README.md)
+- [Multi-host Drone performance configuration](../samples/drone-fleet-multi-host-performance/README.md)
+- [Multi-host Drone legacy visualization configuration](../samples/drone-fleet-multi-host-legacy-visualization/README.md)
 
 ## Planned user documentation
 

@@ -1,0 +1,20 @@
+{
+  "protocol": "tcp",
+  "direction": "inout",
+  "name": "tcp_client_to_srv-01",
+  "role": "client",
+  "remote": {
+    "address": "srv-01",
+    "port": 54011
+  },
+  "options": {
+    "connect_timeout_ms": 2000,
+    "read_timeout_ms": 1000,
+    "write_timeout_ms": 1000
+  },
+  "name_resolver": {
+    "type": "file",
+    "path": "../../../node-ip-map.json",
+    "strict": false
+  }
+}

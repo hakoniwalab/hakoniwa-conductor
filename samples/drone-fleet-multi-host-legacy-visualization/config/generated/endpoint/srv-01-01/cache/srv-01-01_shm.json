@@ -1,0 +1,7 @@
+{
+  "type": "buffer",
+  "name": "cache_srv-01-01_shm",
+  "store": {
+    "mode": "latest"
+  }
+}

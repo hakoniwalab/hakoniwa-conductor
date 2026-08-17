@@ -25,6 +25,8 @@
 ## サンプル
 
 - [Python時刻同期サンプル](../samples/python-time-sync/README-ja.md)
+- [マルチホスト・ドローン性能検証設定](../samples/drone-fleet-multi-host-performance/README-ja.md)
+- [マルチホスト・ドローン可視化向け互換設定](../samples/drone-fleet-multi-host-legacy-visualization/README-ja.md)
 
 ## 今後追加する利用文書
 

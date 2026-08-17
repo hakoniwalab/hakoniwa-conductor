@@ -1,0 +1,6 @@
+{
+  "cache": "client_cache.json",
+  "comm": "client_comm_tcp.json",
+  "name": "bridge-monitor-client-cli-01",
+  "pdu_def_path": "../../pdudef.json"
+}

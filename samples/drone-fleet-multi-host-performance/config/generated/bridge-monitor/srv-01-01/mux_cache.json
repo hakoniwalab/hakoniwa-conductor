@@ -1,0 +1,8 @@
+{
+  "name": "cache_bridge_monitor_mux_srv-01-01",
+  "store": {
+    "depth": 64,
+    "mode": "queue"
+  },
+  "type": "buffer"
+}

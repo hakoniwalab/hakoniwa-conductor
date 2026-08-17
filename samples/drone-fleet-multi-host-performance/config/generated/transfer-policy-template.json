@@ -1,0 +1,21 @@
+{
+  "immediate-atomic": {
+    "type": "immediate",
+    "atomic": true
+  },
+  "immediate": {
+    "type": "immediate"
+  },
+  "throttle-20ms": {
+    "type": "throttle",
+    "intervalMs": 20
+  },
+  "ticker-20ms": {
+    "type": "ticker",
+    "intervalMs": 20
+  },
+  "rd-ctrl-ticker": {
+    "type": "ticker",
+    "intervalMs": 10
+  }
+}

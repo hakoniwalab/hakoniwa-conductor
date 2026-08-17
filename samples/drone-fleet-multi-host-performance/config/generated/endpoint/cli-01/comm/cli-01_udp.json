@@ -1,0 +1,14 @@
+{
+  "protocol": "udp",
+  "direction": "inout",
+  "name": "udp_server_cli-01",
+  "local": {
+    "address": "0.0.0.0",
+    "port": 55011
+  },
+  "options": {
+    "buffer_size": 8192,
+    "timeout_ms": 1000,
+    "blocking": false
+  }
+}

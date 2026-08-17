@@ -1,0 +1,6 @@
+{
+  "name": "srv-01-01-ep-shm",
+  "pdu_def_path": "../../pdudef.json",
+  "cache": "cache/srv-01-01_shm.json",
+  "comm": "comm/srv-01-01_shm.json"
+}

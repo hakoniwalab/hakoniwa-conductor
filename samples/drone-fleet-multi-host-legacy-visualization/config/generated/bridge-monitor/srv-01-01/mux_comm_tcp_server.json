@@ -1,0 +1,19 @@
+{
+  "direction": "inout",
+  "expected_clients": 1,
+  "local": {
+    "address": "0.0.0.0",
+    "port": 65200
+  },
+  "name": "bridge_monitor_mux_srv-01-01",
+  "options": {
+    "read_timeout_ms": 1000,
+    "write_timeout_ms": 1000
+  },
+  "protocol": "tcp",
+  "name_resolver": {
+    "type": "file",
+    "path": "../../node-ip-map.json",
+    "strict": false
+  }
+}

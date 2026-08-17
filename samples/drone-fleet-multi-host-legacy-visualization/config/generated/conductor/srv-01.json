@@ -1,0 +1,18 @@
+{
+  "server_machine_id": "srv-01",
+  "clients": [
+    {
+      "server_node_id": "srv-01-01",
+      "client_node_id": "cli-01",
+      "srv_to_client_endpoint_id": "srv-01-01-ep-shm",
+      "client_to_srv_endpoint_id": "srv-01-01-ep-shm",
+      "bridge_monitor_runtime_config_path": "../bridge-monitor/srv-01-01/runtime.json"
+    }
+  ],
+  "endpoints_config_path": "../endpoint/endpoint_container.json",
+  "remote_api_config_path": "../remote-api.json",
+  "bridge_config_path": "../bridge.json",
+  "time_source_type": "hakoniwa_poll",
+  "delta_time_usec": 10000,
+  "max_delay_time_usec": 20000
+}

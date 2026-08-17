@@ -1,0 +1,19 @@
+{
+  "protocol": "tcp",
+  "direction": "inout",
+  "name": "tcp_server_srv-01-01",
+  "role": "server",
+  "local": {
+    "address": "0.0.0.0",
+    "port": 54011
+  },
+  "options": {
+    "read_timeout_ms": 1000,
+    "write_timeout_ms": 1000
+  },
+  "name_resolver": {
+    "type": "file",
+    "path": "../../../node-ip-map.json",
+    "strict": false
+  }
+}

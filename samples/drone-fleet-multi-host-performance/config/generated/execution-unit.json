@@ -1,0 +1,31 @@
+{
+  "mode": "simple",
+  "pattern": "pair-server-client",
+  "execution_nodes": [
+    {
+      "nodeId": "cli-01"
+    }
+  ],
+  "execution_unit": [],
+  "connection_pairs": [
+    {
+      "client_node_id": "cli-01",
+      "server_node_id": "srv-01-01"
+    }
+  ],
+  "pdu_groups": [],
+  "eu_pdu_bindings": [],
+  "comm_defaults": {
+    "tcp": {
+      "base_port": 54011,
+      "connection_initiator": "client"
+    }
+  },
+  "conductor_defaults": {
+    "delta_time_usec": 1000,
+    "max_delay_time_usec": 20000,
+    "real_sleep_msec": 1,
+    "simtime_publish_interval_usec": 10000,
+    "simtime_publish_mode": "delta_boundary"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "node_id": "cli-01",
+  "server_machine_id": "srv-01",
+  "srv_to_client_endpoint_id": "cli-01-ep-shm",
+  "client_to_srv_endpoint_id": "cli-01-ep-shm",
+  "endpoints_config_path": "../endpoint/endpoint_container.json",
+  "remote_api_config_path": "../remote-api.json",
+  "bridge_config_path": "../bridge.json",
+  "bridge_monitor_runtime_config_path": "../bridge-monitor/cli-01/runtime.json",
+  "time_source_type": "hakoniwa_poll",
+  "delta_time_usec": 10000,
+  "max_delay_time_usec": 20000
+}

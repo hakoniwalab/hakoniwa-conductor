@@ -1,0 +1,6 @@
+{
+  "name": "cli-01-ep-shm",
+  "pdu_def_path": "../../pdudef.json",
+  "cache": "cache/cli-01_shm.json",
+  "comm": "comm/cli-01_shm.json"
+}

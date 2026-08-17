@@ -1,0 +1,55 @@
+{
+  "mode": "simple",
+  "pattern": "pair-server-client",
+  "execution_nodes": [
+    {
+      "nodeId": "cli-01"
+    }
+  ],
+  "execution_unit": [
+    {
+      "name": "vsp-cli-01",
+      "initial_owner_node_id": "cli-01",
+      "candidate_node_ids": []
+    }
+  ],
+  "connection_pairs": [
+    {
+      "client_node_id": "cli-01",
+      "server_node_id": "srv-01-01"
+    }
+  ],
+  "pdu_groups": [
+    {
+      "id": "visual-state-cli-01",
+      "pdudef": "pdudef_visual_state.json",
+      "transport": "tcp",
+      "transfer_policy_id": "immediate-atomic",
+      "pdu_keys": [
+        {
+          "robot": "DroneVisualStatePublisher",
+          "name": "drone_visual_state_array_1"
+        }
+      ]
+    }
+  ],
+  "eu_pdu_bindings": [
+    {
+      "eu": "vsp-cli-01",
+      "writes": [
+        "visual-state-cli-01"
+      ],
+      "reads": []
+    }
+  ],
+  "comm_defaults": {
+    "tcp": {
+      "base_port": 54011,
+      "connection_initiator": "client"
+    }
+  },
+  "conductor_defaults": {
+    "delta_time_usec": 10000,
+    "max_delay_time_usec": 20000
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "paths": [
+    {
+      "id": "Drone",
+      "path": "pdutypes_drone.json"
+    },
+    {
+      "id": "Time",
+      "path": "pdutypes_time.json"
+    }
+  ],
+  "robots": [
+    {
+      "name": "Drone-1",
+      "pdutypes_id": "Drone"
+    },
+    {
+      "name": "Drone-2",
+      "pdutypes_id": "Drone"
+    },
+    {
+      "name": "cli-01",
+      "pdutypes_id": "Time"
+    },
+    {
+      "name": "cli-02",
+      "pdutypes_id": "Time"
+    },
+    {
+      "name": "srv-01",
+      "pdutypes_id": "Time"
+    }
+  ]
+}
